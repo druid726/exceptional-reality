@@ -28,12 +28,19 @@
       </div><!-- .wrapper -->
       <div id="navbar" class="light-fade">
         <div class="wrapper">
+<<<<<<< HEAD
         <nav class="clearfix">
           <a class="menu-icon">&#9776;</a>
           <div id="menu-links">
             <a href="index.html">About</a><a href="new-properties.html">New Properties</a><a href="real-estate-listings.html">Listings</a><a href="market-report.html">Market Report</a><a class="selected" href="contact.html">Contact</a><a href="http://hud.gov" target="_blank">H.U.D.</a>
           </div>
           </nav>
+=======
+            <nav class="clearfix">
+              <a class="menu-icon">&#9776;</a>
+              <div id="menu-links"><a href="index.html">About</a><a href="new-properties.html">New Properties</a><a href="real-estate-listings.html">Listings</a><a href="market-report.html">Market Report</a><a class="selected" href="contact.html">Contact</a><a href="http://hud.gov" target="_blank">H.U.D.</a></div>
+            </nav>
+>>>>>>> 8c3133badb282b38246a372cf6cd94f3a5e5fc52
         </div><!-- .wrapper -->
       </div><!-- #navbar -->
     </header>
@@ -43,14 +50,22 @@
       <section class="col-2 first shadow">
         <!-- Contact Form -->
         <form action="#" method="post">
+
           <label for="fullname">Name</label>
-          <input type="text" id="fullname" name="fullname" placeholder="your name" required>
+          <span id="fullname-error" class="error">must be more than two characters.</span>
+          <input type="text" id="fullname" name="fullname" placeholder="your name">
+
           <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="your email" required>
+          <span id="email-error" class="error">must be a valid email.</span>
+          <input type="text" id="email" name="email" placeholder="your email">
+          
           <label for="phone">Phone</label>
           <input type="tel" id="phone" name="phone" placeholder="your phone (optional)">
+          
           <label for="message">Message</label>
+          <span id="message-error" class="error">can not be left blank.</span>
           <textarea id="message" name="message" rows="10"></textarea>
+          
           <input type="submit" value="send">
         </form>
       </section>
@@ -105,5 +120,7 @@
     <script scr="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
     <script scr="js/main.js"></script>
   
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
