@@ -1,25 +1,3 @@
-<<<<<<< HEAD
-$(document).ready(function() { 
-
-	/*//// MOBILE MENU ////*/
-
-	$('a.menu-icon').click(function() {
-		$('#menu-links').slideToggle();
-	});
-
-	/*//// FIX HIDDEN LINKS IN RESIZE ////*/
-
-	$(window).resize(function() {
-		if ($(window).width() > 700) {
-			$('#menu-links').removeAttr('style');
-		}
-});
-
-
-
-
-
-=======
 $(function() {
 
   ////////// Mobile Menu //////////
@@ -36,9 +14,12 @@ $(function() {
     }
   });
 
+});
+
+
   ////////// Contact Form Validation //////////
 
-  function validateName(fullname) {
+  /*function validateName(fullname) {
     if(fullname.length > 2) {
       $('#fullname').removeClass('error');
       $('#fullname-error').hide();
@@ -93,5 +74,5 @@ $(function() {
     }
   });
 
-});
->>>>>>> 8c3133badb282b38246a372cf6cd94f3a5e5fc52
+});*/
+
