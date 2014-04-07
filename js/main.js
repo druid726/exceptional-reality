@@ -14,12 +14,9 @@ $(function() {
     }
   });
 
-});
+////////// Contact Form Validation //////////
 
-
-  ////////// Contact Form Validation //////////
-
-  /*function validateName(fullname) {
+  function validateName(fullname) {
     if(fullname.length > 2) {
       $('#fullname').removeClass('error');
       $('#fullname-error').hide();
@@ -74,5 +71,6 @@ $(function() {
     }
   });
 
-});*/
+});
+
 
